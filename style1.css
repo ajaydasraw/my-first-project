@@ -1,0 +1,126 @@
+body
+{
+    color:  #d9faff ;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+
+}
+#all
+{
+    
+}
+
+#header
+{
+background: #ffec80;
+min-height:55px;
+padding:33px 5%;
+
+}
+
+#nav
+{
+background:  #fff4ca  ;
+min-height:30px;
+padding:50px 5%;
+display: block;
+overflow: hidden;
+
+}
+
+#main
+{
+
+min-height:444px;
+padding:0 5%;
+
+}
+#welcome{
+    width: 70%;
+    float: left;
+    padding: 0 5% 5% 0;
+}
+#sidebarwidget{
+    width: 25%;
+    float: left;
+}
+#footer
+{
+clear: both;
+background:#ffec80;
+min-height:22px;
+padding:33px 5%;
+text-align: center;
+color:black;
+
+
+}
+
+#header h1
+{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+#nav ul li
+{
+list-style-type: none;
+display: inline-block;
+float: left;
+height: 60px;
+text-align: center;
+}
+#nav ul li a{
+    color: #004d4d;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+    padding: 10px 33px;
+}
+#nav ul li a:hover, #nav ul li a.active{
+    background: #33ffff;
+}
+.grid1, .grid2{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    line-height: 25px;
+}
+.grid3{
+    float: left;
+    width: 30%;
+    margin 0;
+    line-height: 25px;
+}
+img{
+    max-width: 100%;
+}
+/*''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+
+@media screen and (max-width:800px){
+
+#nav{ 
+
+    padding: 0;
+}  
+#nav ul
+    {
+       
+    }
+    #nav ul li
+    {
+  width: 100%;
+    }
+}
+
+.btn1{
+
+}
